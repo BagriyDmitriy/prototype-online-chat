@@ -1,0 +1,116 @@
+body {
+  padding-top: 0;
+  font-size: 12px;
+  color: #777;
+  background: #f9f9f9;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.chat-message h1 {
+    text-align: left;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.panel-control {
+  height: 100%;
+  position: relative;
+  float: right;
+  padding: 0 15px;
+    
+}
+
+h2.panel-title {
+  font-size: 30px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+small, .small {
+  font-size: 85%;
+}
+
+#login_form_btn {
+  float: right;
+}
+
+.chat-message {
+  padding: 20px;
+}
+
+.chat {
+  overflow: auto;
+  max-height: 400px;
+  list-style: none;
+  margin: 0;
+}
+
+.chat-message{
+  background: #f9f9f9;  
+}
+
+.chat-body {
+  padding-bottom: 20px;
+}
+
+.chat li.left .chat-body {
+  background-color: #fff;
+}
+
+.chat .chat-body .attachment {
+  margin-top: -6px;
+}
+
+.chat li .chat-body {
+  position: relative;
+  font-size: 11px;
+  padding: 10px;
+  border: 1px solid #f1f5fc;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.chat li .chat-body .header {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f1f5fc;
+}
+
+.chat li .chat-body p {
+  margin: 0;
+}
+
+.chat li {
+  margin: 15px 0;
+}
+
+.chat-box {
+  bottom: 0;
+  left: 444px;
+  right: 0;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+
+.primary-font {
+  color: #3c8dbc;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: 0;
+}
